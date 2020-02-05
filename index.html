@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Le Jardin Océan</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a
+              href="#section-about"
+              class="navigation__link"
+              onclick="document.getElementById('navi-toggle').checked = false"
+              ><span>01</span>A propos</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a
+              href="#section-tours"
+              class="navigation__link"
+              onclick="document.getElementById('navi-toggle').checked = false"
+              ><span>02</span>Nos offres</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a
+              href="#section-stories"
+              class="navigation__link"
+              onclick="document.getElementById('navi-toggle').checked = false"
+              ><span>03</span>Livre d'or</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a
+              href="#section-book"
+              class="navigation__link"
+              onclick="document.getElementById('navi-toggle').checked = false"
+              ><span>04</span>Reservation</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/logo-reunion.jpg" alt="Logo" class="header__logo" />
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main" style="font-weight: bolder;-webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-image: -webkit-linear-gradient(left,  rgb(0, 0, 199), rgb(90, 0, 155));">Le Jardin Océan</span>
+          <span class="heading-primary--sub" style="font-weight: bolder;">une expérience inoubliable</span>
+        </h1>
+
+        <a href="#section-book" class="btn btn--green btn--animated"
+          >Reservation</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about" id="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+              Decouvrez toute la richesse de nos fonds marins    
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Vous allez tomber amoureux de l'océan
+            </h3>
+            <p class="paragraph">
+              La réunion est une ile riche en diversité. que vous soyez débutant
+              ou plongeur confirmé il y a ici tout ce qu'il faut pour faire de 
+              cette expérience un souvenir impérissable. Nous mettons a votre 
+              disposition un matériel récent et regulièrement controlé pour que 
+              la sécurité ne soit jamais une préocupation. Nos moniteurs 
+              sont tous diplomés d'Etat et sauront vous mettre en confiance et 
+              vous accompagner dans les endroits les plus magiques.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Vivez une aventure unique
+            </h3>
+            <p class="paragraph">
+              Chez nous il y en a pour tous les gouts. Que vous desiriez chasser
+              les langoustes et les poissons perroquets dans le lagon ou bien
+              partir a la découverte d'un vieux gallion échoué depuis des siècles, 
+              nous sommes la pour faire de ce rêve une réalité. Les plus courageux
+              pourront même partir à la rencontre des requins tigres ou bouledogue
+              qui sont nombreux ici. Sensation fortes garanties...
+            </p>
+
+            <a href="#" class="btn-text">En savoir plus &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/reunion-1.jpg"
+              />
+
+              <img
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/reunion-3.jpg"
+              />
+
+              <img
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/reunion-2.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tours" id="section-tours">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-white">
+            Nos excursions à la carte
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >initiation</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Baptème dans le lagon</li>
+                    <li>Demi-journée</li>
+                    <li>jusqu'a 20 personnes</li>
+                    <li>4 moniteurs</li>
+                  
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Prix</p>
+                    <p class="card__price-value">99€</p>
+                  </div>
+                  <a href="#section-book" class="btn btn--white">Reservation</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >intermédiaire</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>les plus beaux recifs</li>
+                    <li>jusqu'a 10 personnes</li>
+                    <li>2 moniteurs</li>
+                    <li>Repas midi compris</li>
+                    <li>Accessible après l'initiation</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Prix</p>
+                    <p class="card__price-value">199€</p>
+                  </div>
+                  <a href="#section-book" class="btn btn--white">Reservation</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >confirmé</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>plongez avec les requins</li>
+                    <li>Jusqu'a 10 personnes</li>
+                    <li>2 moniteurs</li>
+                    <li>Repas midi compris</li>
+                    <li>Niveau 1 minimum</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Prix</p>
+                    <p class="card__price-value">249€</p>
+                  </div>
+                  <a href="#section-book" class="btn btn--white">Reservation</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#section-book" class="btn btn--green">Reservation</a>
+        </div>
+      </section>
+
+      <section class="section-stories" id="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/sydvideo.mp4" type="video/mp4" />
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-big">
+          <h2
+            class="heading-secondary
+"
+          >
+            Nos clients témoignent
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <!-- <figure class="story__shape">
+              <img
+                src="img/nat-8.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Mary Smith</figcaption>
+            </figure> -->
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                La meilleure expérience en famille
+              </h3>
+              <p>
+                Nous avons adoré plonger à la réunion. Nous avons eu la chance
+                de rencontrer des dauphins et de nager avec eux. C'est un 
+                souvenir incroyable, tous mes collègues sont jaloux... Merci 
+                encore à toute l'équipe de Réunion Océan pour ce merveilleux
+                moment. MARC et SOPHIE
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <!-- <figure class="story__shape">
+              <img
+                src="img/nat-9.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Jack Wilson</figcaption>
+            </figure> -->
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                WOW! Ma vie est changée pour toujours maintenant
+              </h3>
+              <p>
+                J'ai passé mon niveau 1 l'année dernière et j'ai enfin pu  
+                réaliser mon rêve de plonger avec des requins. Ce fut un des 
+                moment les plus intenses de toute ma vie. Malgrès le danger 
+                bien réel je me suis senti complètement en securité grace 
+                au professionalisme des moniteurs. Bon boulot les gars!! PATRICK
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn-text">Livre d'or &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-book" id="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">
+                    Reservation
+                  </h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Nom"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Nom</label>
+                </div>
+               
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Email</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Débutant
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Niveau 1 et plus
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--green">Continuer &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img
+          class="footer__logo-img"
+          alt="Full logo"
+          src="img/logo-reunion.jpg"
+        />
+      </div>
+      <div class="footer__navigation">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">A propos</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Nos offres</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Livre d'or</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
